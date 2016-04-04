@@ -30,4 +30,11 @@ hello, world
 2.4M    ./bin/letsgo.exe
 ```
 
-
+# A Tour of Go
+** Good news for iranians Goolgle and Open-Source Community blockd iranian users getting go packages, so turn on you `فیلتر شکن` **  ! 
+I prefered getting the offline version :   
+```sh
+go get golang.org/x/tour/gotour
+cd $GOPATH/bin
+./gotour
+```
