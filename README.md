@@ -45,9 +45,22 @@ Bang! Super nice, browser showed off with a offline version on `http://127.0.0.1
 Read this pages for more information about go workspace structure and dependancy managers:   
 - [How to Write Go Code](https://golang.org/doc/code.html)
 - [PackageManagementTools](https://github.com/golang/go/wiki/PackageManagementTools)
-
-Also found a useful command `go env` which prints current go environment configs.
-
-# [Godep](https://github.com/tools/godep)
-godep helps build packages reproducibly by fixing their dependencies.  
-```go get github.com/tools/godep```
+  
+## `GOPATH` Su**s everywhere!
+On windows i created a `.go` directory inside my home dir and set this environment vars:  
+```bash
+GOPATH=C:\Users\pooya\.go
+PATH=....;C:\Users\pooya\.go\bin
+```
+Also there is a useful command `go env` to test current GO environment configs.
+  
+## GoDep Package manager
+godep helps build packages reproducibly by fixing their dependencies. [Godep](https://github.com/tools/godep)  
+To get started: `go get github.com/tools/godep`
+  
+# GO Fancy Features
+[TODO]  
+  
+# Effective Go
+[Read Here](https://golang.org/doc/effective_go.html)  
+[TODO]
