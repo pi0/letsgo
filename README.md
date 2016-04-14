@@ -1,7 +1,7 @@
 # Let's Learn Go
 **(Note: nothing is right here! that's just some notes while i was learning)**
 
-Get started from here https://golang.org/doc/install  
+Get started from [here](https://golang.org/doc/install)
 
 The first crazy thing, i'm using cygwin on holy windows(R) . when you are setting **$GOPATH** it detects absolute unix paths as relative path and ``` export GOPATH=`pwd` ``` seems not working. so workaround is ``` GOPATH=`cygpath -aw .` ``` (maybe i will make a helper script for this `GOPATH` thing)
     
@@ -43,11 +43,11 @@ Bang! Super nice, browser showed off with a offline version on `http://127.0.0.1
 # Go Projects - Get Pro!
 
 Read this pages for more information about go workspace structure and dependancy managers:   
-- (How to Write Go Code)[https://golang.org/doc/code.html]
-- (PackageManagementTools)[https://github.com/golang/go/wiki/PackageManagementTools]   
+- [How to Write Go Code](https://golang.org/doc/code.html)
+- [PackageManagementTools](https://github.com/golang/go/wiki/PackageManagementTools)
 
 Also found a useful command `go env` which prints current go environment configs.
 
-# (Godep)[https://github.com/tools/godep]
-godep helps build packages reproducibly by fixing their dependencies.
+# [Godep](https://github.com/tools/godep)
+godep helps build packages reproducibly by fixing their dependencies.  
 ```go get github.com/tools/godep```
